@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #93c5fd;
+  min-height: 100vh;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  font-family: 'Roboto';
+}
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+}
+.para {
+  font-size: 10px;
+  font-weight: bold;
+}
+.select-container {
+  display: flex;
+  flex-direction: row;
+}
+.select-item {
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.country {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1e293b;
+}
